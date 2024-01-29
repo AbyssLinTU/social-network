@@ -1,0 +1,24 @@
+.dialogs{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 2fr 10fr;
+}
+
+
+.dialog{
+    margin-bottom: 10px;
+}
+.active{
+    color: gold;
+
+}
+.messages{
+    position: relative;
+}
+.sendMessage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}

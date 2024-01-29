@@ -1,0 +1,14 @@
+.item{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.item img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+}
+.item span{
+  font-size: 12px;
+}

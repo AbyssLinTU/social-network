@@ -1,0 +1,91 @@
+.page__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px;
+}
+.page__buttons{
+    
+}
+.selectedPage{
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background: white;
+    color:black;
+    border-radius: 50%;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0s;
+}
+.button_page{
+    font-weight: bold;
+    border: 2px solid white;
+    color:white;
+    border-radius: 50%;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.3s;
+}
+.button_page:hover{
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid white;
+    background: white;
+    color:black;
+}
+.button_page:active{
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #E7E7E7;
+    background: #E7E7E7;
+    color:black;
+    
+}
+.leftButton{
+    cursor: pointer;
+    margin-right: 20px;
+    background: url(../../../img/Arrow_Left_NonActive.svg) no-repeat 100% 100%;
+    min-width: 42px;
+    min-height: 42px;
+    border: 0;
+    transition: all ease 0.3s;
+    margin-bottom: -2px;
+    
+}
+.leftButton:hover{
+    background: url(../../../img/Arrow_Left_Active.svg) no-repeat 100% 100%;
+    transition: all ease 0.1s;
+}
+.leftButton:active{
+    background: url(../../../img/Arrow_Left_Clicked.svg) no-repeat 100% 100%;
+    
+}
+.rightButton{
+    cursor: pointer;
+    margin-left: 20px;
+    background: url(../../../img/Arrow_Right_NonActive.svg) no-repeat 100% 100%;
+    min-width: 42px;
+    min-height: 42px;
+    border: 0;
+    transition: all ease 0.3s;
+}
+.rightButton:hover{
+    background: url(../../../img/Arrow_Right_Active.svg) no-repeat 100% 100%;
+    transition: all ease 0.1s;
+}
+.rightButton:active{
+    background: url(../../../img/Arrow_Right_Clicked.svg) no-repeat 100% 100%;
+    
+}
+.rightButton:before{
+    
+}

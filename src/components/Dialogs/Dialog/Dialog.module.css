@@ -1,0 +1,19 @@
+
+.dialog{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    transition: all ease 0.2s;
+    border-radius: 30px;
+
+}
+.dialog:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.dialog img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

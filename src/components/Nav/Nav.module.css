@@ -1,0 +1,42 @@
+.nav{
+  
+  padding-top: 20px;
+  grid-area: n;
+  background-color: rgb(142, 209, 42);
+}
+.item{
+  color: white;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  transition: all ease 0.3s;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.item a{
+  color: white;
+}
+
+.item a.active{
+  font-size: 24px;
+}
+.item:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.item a:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+.item_friends{
+  margin-top: 40px;
+  color: white;
+  
+
+}
+.spanFriends{
+  padding-left: 40px;
+}
+
+.navFriends{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
